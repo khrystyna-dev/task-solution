@@ -16,7 +16,7 @@ public class Main {
 
 
         String text2 = "Hello, Vector!";
-        int rails2 = 1;
+        int rails2 = 5;
 
         String encodedText2 = encode(text2, rails2);
         System.out.println("Encoded text: " + encodedText2);

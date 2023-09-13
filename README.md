@@ -4,6 +4,7 @@
 Create two functions to encode and then decode a string using the Rail Fence Cipher. This cipher is used to encode a string by placing each character successively in a diagonal along a set of "rails". First start off moving diagonally and down. When you reach the bottom, reverse direction and move diagonally and up until you reach the top rail. Continue until you reach the end of the string. Each "rail" is then read left to right to derive the encoded string.
 
 For example, the string "WEAREDISCOVEREDFLEEATONCE" could be represented in a three-rail system as follows:
+
 ![img_task_1.png](img_task_1.png)
 
 The encoded string would be: WECRLTEERDSOEEFEAOCAIVDEN
@@ -20,6 +21,7 @@ Note: do not transform incoming number into string.
 ### 📖️ TASK 3. Validate Sudoku with size `NxN`
 Given a Sudoku data structure with size NxN, N > 1 and √N == integer, write a method to validate if it has been filled out correctly.
 The data structure is a multidimensional Array (List<List<Integer>>), i.e. for example Sudoku with size 9x9:
+
 ![img_task_3.png](img_task_3.png)
 
 Rules for validation:
@@ -56,12 +58,15 @@ Note: Use the correct π constant for your circle area calculations: Math.PI
 Create database ‘MyShop’ with 3 tables: ‘Products’, ‘Categories’(will include info about categories of Products) and ‘Suppliers’ and populate them with data from images below.
 
 Products table:
+
 ![img_task_5_products.png](img_task_5_products.png)
 
 Suppliers table:
+
 ![img_task_5_suppliers.png](img_task_5_suppliers.png)
 
 Categories table:
+
 ![img_task_5_categories.png](img_task_5_categories.png)
 
 Create the next queries:
