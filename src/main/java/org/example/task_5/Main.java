@@ -33,6 +33,5 @@ public class Main {
         System.out.println(productService.findProductWithSmallestPrice());
         System.out.println(productService.findProductWithNameBeginsWithC());
         System.out.println(productService.findAllProductsPriceFromUSA());
-
     }
 }
